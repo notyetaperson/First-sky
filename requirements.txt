@@ -1,0 +1,19 @@
+# Core (Reddit HTTP + TTS). FFmpeg must be installed separately.
+requests>=2.28.0
+colorama>=0.4.6
+fake-useragent>=1.4.0
+pyttsx3>=2.90
+gTTS>=2.5.1
+Pillow>=10.0.0
+
+# Optional: PTK_WHISPER=1 for word-aligned subtitles
+# faster-whisper>=1.0.0
+
+# Optional: PTK_BROWSER_TTS=1 — then: playwright install chromium
+# PFU text_trap_reveal (iFake screenshots) — same: playwright>=1.40.0 && playwright install chromium
+# playwright>=1.40.0
+
+# Optional: Edge / Azure neural TTS when PTK_TTS_ENGINE=edge (etc.)
+# edge-tts>=6.1.0
+
+numpy>=1.24.0
