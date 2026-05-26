@@ -66,23 +66,6 @@ Fuzzy matching suggests close codes if you typo while filtered.
 | 1 | PTK | Core | Full Reddit story → vertical video (`videoN.mp4`) |
 | 2 | FFV   | Core | Reactions + SFX (see **FFV** below) |
 | 3 | ORL | Core | English Wikipedia science → slideshow (`orlN.mp4`) |
-| 4 | R3U | Core | "3 unknowns" facts about an ordinary object (`r3uN.mp4`) |
-| 5 | ASM | Utility | Ascii-Media-Player — external terminal app (sibling repo; not a FirstSky render) |
-| 3–26      | RST … RSL | Story | Themed shorts (`rstN.mp4`, `rssN.mp4`, …) |
-| 27 | RSG  | Spotlight | Good-news / uplifting (`rsgN.mp4`) |
-| 28 | RSD  | Spotlight | Plot-twist / drama (`rsdN.mp4`) |
-| 29 | RSI  | Spotlight | Interesting finds (`rsiN.mp4`) |
-| 30 | RSJ  | Spotlight | Science / wonder (`rsjN.mp4`) |
-| 31 | RSK2 | Spotlight | History / mystery (`rsk2N.mp4`) |
-| 32 | TWAO | Teen | Wrong answers only (`twaoN.mp4`) — scripts in `resyco/teen_formats.py` |
-| 33 | TPOV | Teen | POV “brain during…” moment (`tpovN.mp4`) |
-| 34 | TRATE| Teen | Yelp-style rating (`trateN.mp4`) |
-| 35 | TOBJ | Teen | One-object story (`tobjN.mp4`) |
-| 36 | TSET | Teen | Honest fake-app settings (`tsetN.mp4`) |
-| 37 | TMUS | Teen | Gen-Z “museum 2045” plaque (`tmusN.mp4`) |
-| 38 | TSIL | Teen | Silent / caption-card skit script (`tsilN.mp4`) |
-| 39 | TSPD | Teen | School-day speedrun commentary (`tspdN.mp4`) |
-| 40 | TCRE | Teen | Small creator (50–500 subs) petty online beef (`tcreN.mp4`) — satire storytime from `teen_formats.py` |
 
 **Teen tools** use **no Reddit fetch**: each run picks random lines from template pools, then the same TTS → music → b-roll → subs → mux path as other shorts. Batch a folder of renders with `python main.py --queue my.txt` and lines like `twao`, `tspd`, `tcre`, etc. (see `python main.py --extras-help`).
 
